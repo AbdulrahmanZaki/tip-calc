@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="CSS/TipCalc.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="Container">
+      <h1>Tip Calculator</h1>
+
+      <div id="calc">
+        <form>
+          <label>
+            How much was your bill?<br />
+            $<input type="text" id="billAmount" />
+          </label>
+          <label>
+            how was your service?<br />
+            <select id="serviceQuality">
+              <option disabled selected>-- Choose an Option --</option>
+              <option value="0.3">30% - outstanding</option>
+              <option value="0.2">20% - good</option>
+              <option value="0.15">15% - OK</option>
+              <option value="0.1">10% - Bad</option>
+              <option value="0.05">5% - Turrible</option>
+            </select>
+          </label>
+          <label>
+            How many people sharing the bill?<br />
+            <input type="text" id="Sharing" />people
+          </label>
+          <button type="button" id="Calculate" class="btn btn-primary">
+            Calculate
+          </button>
+        </form>
+      </div>
+      <!--Calculator -->
+      <div id="totalTip">
+        <sup>$</sup
+        ><!--sup stands for super script which means small text higher up the line-->
+        <span id="tip">0.00</span>
+        <small id="each">each</small>
+      </div>
+      <!--totalTip-->
+    </div>
+    <!--container-->
+    <script src="Javascript/tipCalc.js"></script>
+  </body>
+</html>
