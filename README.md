@@ -14,11 +14,11 @@ Introducing the Digital Bill Tip Calculator—a smart solution for effortless ti
 The goal of this project is to provide a user-friendly digital tool that simplifies the process of tipping.
 
 ## Technology
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Features
--A customer can choose the quality of the service.
--For accuracy in sharing the tip among customers, the app provides a place for how many people are going to share the bill.
--Based on the previous information the app provides a tip amount for each customer.
+- A customer can choose the quality of the service.
+- For accuracy in sharing the tip among customers, the app provides a place for how many people are going to share the bill.
+- Based on the previous information the app provides a tip amount for each customer.
